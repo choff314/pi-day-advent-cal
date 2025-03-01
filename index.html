@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Pi Day Advent Calendar</title>
+</head>
+<body style="margin: 0;">
+    <div id="page-container">
+        <div id="content-wrap"> 
+
+
+            <!-- HEADER -->
+            <div id="header">
+
+                <div id="littleBox">
+                    <t id="headerText1"> 
+                        &#960 
+                    </t>
+                </div>
+                <t id="headerText2">Pi day advent calendar!</t>
+                <div id="links"> 
+                    <a href="index.html" id="link1" style="text-decoration: none;" style="color: white;">Home </a>
+                    <t class="dotSeperator">&nbsp; • &nbsp; </t>
+                    <a href="how.html" id="link2" style="text-decoration: none;" style="color: white;"> How the Calendar Works </a>
+                    <t class="dotSeperator">&nbsp; • &nbsp;</t>
+                    <a href="note.html" id="link3" style="text-decoration: none;" style="color: white;"> Author's Note</a>
+                </div>
+                
+            </div>
+
+            <div id="menu">
+                <div id="menuBox">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div id="menuContent">
+                    <a href="index.html" class="menuLink" id="menuLink1" style="text-decoration: none;">Home</a>
+                    <a href="how.html" class="menuLink" id="menuLink2" style="text-decoration: none;">How the Calendar Works</a>
+                    <a href="note.html" class="menuLink" id="menuLink3" style="text-decoration: none;">Author's Note</a>
+                </div>
+            </div>
+
+
+            <div class="container" id="countBox">
+                <t id="headline">Countdown to Pi day</t>
+                <t id="subtitle">at 1:59:26pm</t>
+                <div id="countdown" class="countdown">
+                    <ul id="timeList">
+                        <li><span class="countNum" id="days">00</span>days</li>
+                        <li class= "separator">:</li>
+                        <li><span class="countNum" id="hours">00</span>hours</li>
+                        <li class= "separator">:</li>
+                        <li><span class="countNum" id="minutes">00</span>minutes</li>
+                        <li class= "separator">:</li>
+                        <li><span class="countNum" id="seconds">00</span>seconds</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="container" id="calendar">
+                <t id="calHeadline">Pi Day Advent Calendar</t>
+                <t id="calSubtitle">Click on a door to open it</t>
+                <div id="piBox">
+                    <div id="piSymbol">
+                        <div class = "rect" id="topRect"></div>
+                        <div class = "rect" id="leftRect"></div>
+                        <div class = "rect" id="rightRect"></div>
+                    </div>
+                    <div class="grid">
+                        <div class="door" id="door1">1</div>
+                        <div class="door" id="door2">2</div>
+                        <div class="door" id="door3">3</div>
+                        <div class="door" id="door4">4</div>
+                        <div class="door" id="door5">5</div>
+                        <div class="door" id="door6"></div>
+                        <div class="door" id="door7">6</div>
+                        <div class="door" id="door8"></div>
+                        <div class="door" id="door9">7</div>
+                        <div class="door" id="door10"></div>
+                        <div class="door" id="door11"></div>
+                        <div class="door" id="door12">8</div>
+                        <div class="door" id="door13"></div>
+                        <div class="door" id="door14">9</div>
+                        <div class="door" id="door15"></div>
+                        <div class="door" id="door16"></div>
+                        <div class="door" id="door17">10</div>
+                        <div class="door" id="door18"></div>
+                        <div class="door" id="door19">11</div>
+                        <div class="door" id="door20"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="setHeight">
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <t id="footerText">Want to see more pi-related content?
+                <a href="https://www.piday.org/" id="footerLink" style="text-decoration: none;" target="_blank">Click here!</a>
+            </t>
+        </footer>
+            
+    </div>  
+</body>
+</html>
